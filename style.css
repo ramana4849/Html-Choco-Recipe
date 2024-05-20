@@ -1,0 +1,55 @@
+body{
+    font-family: sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    background: #fffcd6;
+}
+header{
+    background: #672b00;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+h1{
+    color: #ffe4a8;
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+h2{
+    color: chocolate;
+}
+img{
+    border-width: 2px;
+    border-style: solid;
+    border-color: #672b00;
+    margin-top: 20px;
+    margin-left: 20px;
+    max-width: 70%;
+}
+section{
+    text-align: center;
+}
+ol,ul{
+    font-size: 0.9em;
+}
+footer{
+    color: chocolate;
+}
+@media screen and (min-width: 480px){
+    h1{
+        font-size: 2em;
+    }
+    img{
+        max-width: 60%;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    h1{
+        font-size: 3em;
+    }
+    img{
+        float: right;
+        max-width: 50%;
+    }
+}
